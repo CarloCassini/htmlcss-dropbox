@@ -25,6 +25,14 @@ h2 {
   font-size: 2rem;
   margin: var(--space-m) 0px;
 }
+h4 {
+  margin: var(--space-m) 0px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+h5 {
+  margin: var(--space-s) 0px;
+}
 
 .debug {
   border: 2px dashed red;
@@ -196,12 +204,15 @@ nav li {
 
 /* fatturazione */
 .main-radio-btt {
+  margin: var(--space-m) 0px;
 }
 
 .main-billing {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  margin: var(--space-m) 0px;
 }
 
 .main-billing-card {
@@ -213,9 +224,19 @@ nav li {
 }
 
 .card-advantages {
+  margin: var(--space-m) 0px;
+
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+.card-advantages-item {
+  display: flex;
+  margin: var(--space-s) 0px;
+}
+
+.fa-check {
+  color: #0061ff;
 }
 
 .try-btt {
@@ -226,7 +247,7 @@ nav li {
 
 .little-underline {
   width: 20%;
-  margin-top: var(--space-m);
+  margin: var(--space-l) 0px var(--space-m);
   border-bottom: 1px solid grey;
 }
 
