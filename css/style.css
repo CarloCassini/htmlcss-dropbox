@@ -10,15 +10,31 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
   width: 100%;
 }
 
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+  margin: var(--space-m) 0px;
+}
+
 .debug {
   border: 2px dashed red;
   background-color: var(--debug-color);
+  min-width: var(--space-m);
+  min-height: var(--space-m);
+}
+.debug2 {
+  border: 2px dashed rgb(255, 0, 234);
+  background-color: rgba(250, 0, 0, 0.3);
   min-width: var(--space-m);
   min-height: var(--space-m);
 }
@@ -184,7 +200,6 @@ nav li {
 
 .main-billing {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
 }
