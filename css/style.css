@@ -78,7 +78,6 @@ a {
   border: none;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
 
   padding: var(--space-s) var(--space-m);
 }
