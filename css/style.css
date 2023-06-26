@@ -12,6 +12,10 @@
   padding: 0px;
 }
 
+img {
+  width: 100%;
+}
+
 .debug {
   border: 2px dashed red;
   background-color: var(--debug-color);
@@ -81,22 +85,59 @@ nav {
 
   line-height: var(--space-m);
 }
+/* qualsiasi sia l'elemento subito dopo "nav" */
+nav + * {
+  margin-top: var(--space-l);
+}
 
 nav ul {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: var(--space-m);
+
   list-style: none;
+  font-size: smaller;
 }
 nav li {
   list-style: none;
-  margin: 0 var(--space-m);
 }
 
 /* ++++++++ */
 
 /* main */
 
-main {
-  margin-top: var(--space-l);
+.jumbothrone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #b4d0e7;
 }
+
+.jumbothrone > h1 {
+  text-align: center;
+}
+
+.jumbo-sections {
+  display: flex;
+}
+
+.jumbo-section-30 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 30%;
+}
+
+.jumbo-section-70 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  flex-grow: 1;
+}
+
 /* ++++ */
