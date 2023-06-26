@@ -72,6 +72,13 @@ a {
   color: currentColor;
 }
 
+.txt-centre {
+  text-align: center;
+}
+
+i {
+  padding: 0 var(--space-s);
+}
 /* utilities */
 
 .button {
@@ -181,8 +188,16 @@ nav li {
 
 .main-billing-card {
   width: 30%;
-  text-align: center;
+}
+.card-layout {
+  padding: var(--space-s) var(--space-m);
   border: 1px solid grey;
+}
+
+.card-advantages {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* ++++ */
