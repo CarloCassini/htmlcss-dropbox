@@ -54,15 +54,18 @@ a {
 
 /* utilities */
 
-/* .button {
-    border: none;
-    border-radius: 30px;
-    padding: var(--space-s) var(--space-m);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 0.9em;
-} */
+.button {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  padding: var(--space-s) var(--space-m);
+}
+.button-blue {
+  background-color: #0061ff;
+  color: white;
+}
 
 /* +++++++++ */
 
@@ -75,10 +78,13 @@ nav {
 
   background-color: white;
   min-height: var(--space-l);
+
+  line-height: var(--space-m);
 }
 
 nav ul {
   display: flex;
+  align-items: center;
   list-style: none;
 }
 nav li {
