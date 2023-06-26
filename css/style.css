@@ -168,4 +168,18 @@ nav li {
   font-size: xx-large;
 }
 
+/* fatturazione */
+.main-radio-btt {
+}
+
+.main-billing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-billing-card {
+  width: 30%;
+}
+
 /* ++++ */
