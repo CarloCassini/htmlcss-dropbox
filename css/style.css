@@ -36,8 +36,17 @@ img {
 .fl-item-cencer {
   align-items: center;
 }
+.fl-align-left {
+  align-items: start;
+}
+.fl-just-start {
+  justify-content: start;
+}
 .fl-just-cencer {
   justify-content: center;
+}
+.fl-gap {
+  gap: var(--space-m);
 }
 
 .container-l {
@@ -92,6 +101,10 @@ nav {
 
   line-height: var(--space-m);
 }
+
+#logo-dropbox {
+  height: 20px;
+}
 /* qualsiasi sia l'elemento subito dopo "nav" */
 nav + * {
   margin-top: var(--space-l);
@@ -130,23 +143,30 @@ nav li {
   display: flex;
 }
 
-.jumbo-section-30 {
+.jumbo-section-40 {
   margin: 0px var(--space-l);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 
-  width: 30%;
+  width: 40%;
 }
 
-.jumbo-section-70 {
+.jumbo-section-fill {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
   flex-grow: 1;
+}
+#jumbo-btt {
+  text-align: left;
+  /* width: 20%; */
+}
+#arrow {
+  font-size: xx-large;
 }
 
 /* ++++ */
