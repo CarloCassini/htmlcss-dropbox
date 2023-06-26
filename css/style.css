@@ -75,6 +75,9 @@ a {
 .txt-centre {
   text-align: center;
 }
+.txt-blue {
+  color: #0061ff;
+}
 
 i {
   padding: 0 var(--space-s);
