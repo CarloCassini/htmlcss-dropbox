@@ -174,12 +174,15 @@ nav li {
 
 .main-billing {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .main-billing-card {
   width: 30%;
+  text-align: center;
+  border: 1px solid grey;
 }
 
 /* ++++ */
