@@ -200,4 +200,22 @@ nav li {
   flex-wrap: wrap;
 }
 
+.try-btt {
+  display: flex;
+  justify-content: center;
+  margin: var(--space-m) auto;
+}
+
+.little-underline {
+  width: 20%;
+  margin-top: var(--space-m);
+  border-bottom: 1px solid grey;
+}
+
+#simple-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /* ++++ */
