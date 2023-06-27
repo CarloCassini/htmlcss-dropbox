@@ -226,15 +226,17 @@ nav li {
 
 /* main */
 
+#jumbo-color {
+  background-color: #b4d0e7;
+}
 .jumbothrone {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #b4d0e7;
 }
 
 .jumbothrone > h1 {
-  text-align: center;
+  font-size: 5rem;
   margin: var(--space-l);
 }
 
