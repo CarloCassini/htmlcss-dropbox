@@ -328,7 +328,6 @@ nav li {
 /* section operations */
 .operation-card-layout {
   padding: var(--space-s) var(--space-m);
-  border: 1px solid grey;
 }
 
 /* ++++ */
