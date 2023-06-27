@@ -319,12 +319,7 @@ nav li {
   border-bottom: 1px solid grey;
 }
 
-#simple-link {
-  color: -webkit-link;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
+#simple-link,
 #simple-link-b {
   color: -webkit-link;
   cursor: pointer;
