@@ -60,6 +60,9 @@ p {
   display: flex;
   flex-direction: column;
 }
+.wrap {
+  flex-wrap: wrap;
+}
 .fl-space-between {
   justify-content: space-between;
 }
@@ -147,6 +150,10 @@ i {
   padding: 0 var(--space-s);
 }
 /* utilities */
+
+.more-margin-top {
+  margin: calc(var(--space-l) * 2) 0;
+}
 
 .button {
   border: none;
@@ -318,11 +325,10 @@ nav li {
 
 /* section partner */
 
-.more-margin-top {
-  margin: calc(var(--space-l) * 2) 0;
-}
-.more-margin-near {
-  margin: 0 calc(var(--space-m) * 2);
+/* section operations */
+.operation-card-layout {
+  padding: var(--space-s) var(--space-m);
+  border: 1px solid grey;
 }
 
 /* ++++ */
