@@ -267,7 +267,9 @@ nav li {
 .jumbo-sections {
   display: flex;
 }
-
+#jumbo-margin-img {
+  margin-bottom: 80px;
+}
 .jumbo-section-40 {
   margin: 0px var(--space-l);
   display: flex;
@@ -276,6 +278,7 @@ nav li {
   justify-content: space-between;
 
   width: 40%;
+  aspect-ratio: 13/8;
 }
 
 .jumbo-section-fill {
@@ -285,6 +288,15 @@ nav li {
   justify-content: center;
 
   flex-grow: 1;
+  flex-basis: 0;
+
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 #jumbo-btt {
   text-align: left;
