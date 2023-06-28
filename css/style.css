@@ -431,6 +431,7 @@ nav li {
 .bg-yellow {
   background-color: #ffd830;
 }
+
 .color-prune {
   color: #61082b;
 }
@@ -452,4 +453,28 @@ li {
   line-height: var(--space-m);
   text-align: center;
 }
+
+/* footer */
+.column-footer {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.footer-links {
+  padding: var(--space-l) 0px;
+}
+.footer-title {
+  font-weight: bolder;
+  margin: var(--space-m) 0px;
+}
+.column-footer li {
+  font-size: smaller;
+  text-align: left;
+  margin: var(--space-s) 0px;
+}
+
+.bg-dark {
+  background-color: #000000;
+  color: white;
+}
+
 /* ++++ */
