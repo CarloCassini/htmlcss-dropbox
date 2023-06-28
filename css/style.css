@@ -25,7 +25,7 @@ h1 {
 }
 h2 {
   font-size: 2rem;
-  margin: var(--space-m) 0px;
+  margin: var(--space-l) 0px;
 }
 h4 {
   margin: var(--space-m) 0px;
@@ -435,4 +435,21 @@ nav li {
   color: #61082b;
 }
 
+#logo-section-margin {
+  margin: 100px 0px;
+}
+
+/* faq */
+
+.faq {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  line-height: var(--space-m);
+  text-align: center;
+}
 /* ++++ */
